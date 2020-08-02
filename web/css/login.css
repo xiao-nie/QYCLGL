@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/images/login.jpg");
+    background-size: 100%;
+}
+
+#login {
+    width: 434px;
+    height: 333px;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-right: 8%;
+    float: right;
+}
+
+#login>h3 {
+    margin: 30px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+#name,
+#passwd,
+#denglu {
+    width: 385px;
+    height: 35px;
+    margin: 0 20px 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+#name:hover,
+#passwd:hover,
+#denglu:hover {
+    border: 1px solid #92b5d6;
+}
+
+input:focus {
+    outline: none
+}
+#denglu {
+    background: #92b5d6 !important;
+    border-color: #92b5d6 !important;
+    color: #ffffff;
+}
+
+#login p,
+#login a {
+    font-size: 14px;
+    color: #666666;
+    margin: 0 0 20px 20px;
+    text-decoration: none;
+}
+
+#login p {
+    font-size: 12px;
+}
+
+.last {
+    height: 30px;
+    /* margin: 0 auto; */
+    width: 360px;
+    /* margin-right: 8%; */
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.last>div {
+    width: 360px;
+}
+
+.last>div>a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.last>div>span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.last>div>img {
+    width: 12px;
+    position: relative;
+    top: 1px;
+}
+#name,
+#passwd {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    text-indent: 1em;
+}
+#login #zhuce {
+    float: right;
+    display: inline-block;
+    margin: 0 30px 20px 20px;
+}
+#zhuce:hover {
+    color: #444444;
+    text-decoration: underline;
+    cursor: pointer;
+}

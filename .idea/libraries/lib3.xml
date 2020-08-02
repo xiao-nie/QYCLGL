@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/QYCLGL/out/artifacts/QYCLGL_war_exploded/WEB-INF/classes/top/lovelc/lib/mssql-jdbc-6.4.0.jre9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/QYCLGL/out/artifacts/QYCLGL_war_exploded/WEB-INF/classes/top/lovelc/lib/mssql-jdbc-6.4.0.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/QYCLGL/out/artifacts/QYCLGL_war_exploded/WEB-INF/classes/top/lovelc/lib/mssql-jdbc-6.4.0.jre7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

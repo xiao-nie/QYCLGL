@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Servletlogin</servlet-name>
+        <servlet-class>top.lovelc.servlet.Servletlogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletlogin</servlet-name>
+        <url-pattern>/Servletlogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletselect1</servlet-name>
+        <servlet-class>top.lovelc.servlet.CLXX.Servletselect1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletselect1</servlet-name>
+        <url-pattern>/Servletselect1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletinsert1</servlet-name>
+        <servlet-class>top.lovelc.servlet.CLXX.Servletinsert1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletinsert1</servlet-name>
+        <url-pattern>/Servletinsert1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletdelete1</servlet-name>
+        <servlet-class>top.lovelc.servlet.CLXX.Servletdelete1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletdelete1</servlet-name>
+        <url-pattern>/Servletdelete1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletselect2</servlet-name>
+        <servlet-class>top.lovelc.servlet.SJXX.Servletselect2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletselect2</servlet-name>
+        <url-pattern>/Servletselect2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletinsert2</servlet-name>
+        <servlet-class>top.lovelc.servlet.SJXX.Servletinsert2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletinsert2</servlet-name>
+        <url-pattern>/Servletinsert2</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletdelete2</servlet-name>
+        <servlet-class>top.lovelc.servlet.SJXX.Servletdelete2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletdelete2</servlet-name>
+        <url-pattern>/Servletdelete2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletinsert3</servlet-name>
+        <servlet-class>top.lovelc.servlet.WXXX.Servletinsert3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletinsert3</servlet-name>
+        <url-pattern>/Servletinsert3</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletselect3</servlet-name>
+        <servlet-class>top.lovelc.servlet.WXXX.Servletselect3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletselect3</servlet-name>
+        <url-pattern>/Servletselect3</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletdelete3</servlet-name>
+        <servlet-class>top.lovelc.servlet.WXXX.Servletdelete3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletdelete3</servlet-name>
+        <url-pattern>/Servletdelete3</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Servletzhuce</servlet-name>
+        <servlet-class>top.lovelc.servlet.Servletzhuce</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletzhuce</servlet-name>
+        <url-pattern>/Servletzhuce</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servletsp</servlet-name>
+        <servlet-class>top.lovelc.servlet.Servletsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletsp</servlet-name>
+        <url-pattern>/Servletsp</url-pattern>
+    </servlet-mapping>
+
+</web-app>

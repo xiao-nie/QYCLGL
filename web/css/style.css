@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/* top开始 */
+#top {
+	width: 100%;
+	height: 32px;
+	background-color: #043159;
+}
+#top>.class-1 {
+	width: 1200px;
+	margin: 0 auto;
+	height: 32px;
+	background-color: #043159;
+	position: fixed;
+	left: 160px;
+}
+#top>.class-1>ul>li,
+#top>.class-1>ul>li>a {
+	color: #FFFFFF;
+	float: left;
+	overflow: hidden;
+	line-height: 32px;
+	margin-right: 20px;
+}
+#top>.class-1>ul>li:last-child {
+	float: right;
+	overflow: hidden;
+}
+/* top结束 */
+/* body开始 */
+/*搜索开始*/
+#body {
+	width: 1200px;
+	margin: 0 auto;
+}
+#body>#sousuo {
+	width: 1200px;
+	position: fixed;
+	background-color: #FFFFFF;
+	top: 32px;
+}
+#body>#sousuo>form {
+	margin-top: 10px;
+}
+#charu {
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	border: 0;
+	background-color: rgba(255,0,0,.3);
+	outline: none;
+	margin-left: 20px;
+}
+#charu:hover {
+	color: #FFFFFF;
+}
+#body>#sousuo>form>#select {
+	width: 1000px;
+	height: 36px;
+	outline: none;
+	padding-left: 20px;
+	border: 2px solid pink;
+	border-bottom-left-radius: 18px;
+	border-top-left-radius: 18px;
+}
+#body>#sousuo>form>.select {
+	outline: none;
+	width: 170px;
+	height: 40px;
+	line-height: 38px;
+	font-size: 19px;
+	color: #FFFFFF;
+	border: 3px solid pink;
+	background-color: pink;
+	position: relative;
+	left: -5px;
+	top: 5px;
+	border-bottom-right-radius: 18px;
+	border-top-right-radius: 18px;
+}
+#body>#sousuo>button {
+	float: right;
+	overflow: hidden;
+}
+
+/*搜索结束*/
+/*表格样式开始*/
+#top>#body>.tab>table {
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#top>#body>.tab>table th {
+	height: 80px;
+}
+#top>#body>.tab>table tr {
+	height: 50px;
+}
+#top>#body>.tab>table caption {
+	font-size: 25px;
+	margin: 20px;
+}
+
+#top>#body>.tab>table,
+#top>#body>.tab>table td,
+#top>#body>.tab>table th {
+	border: 1px solid pink;
+	border-collapse: collapse;
+	text-align: center;
+}
+#top>#body>.tab>table button {
+	background-color: #FFC0CB;
+	border: 0;
+	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 5px;
+}
+#top>#body>.tab>table tr:hover {
+	background-color: #dddddd;
+}
+/*表格样式结束*/
+/* body结束 */
+/*个别特殊开始*/
+#selectnumber {
+	display: none;
+}
+.sd {
+	width: 50px;
+	height: 30px;
+	font-size: 16px;
+	background-color: pink;
+	border: 1px solid pink;
+	border-radius: 5px;
+}
+#xiazaianniu {
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	border: 0;
+	background-color: rgba(255,0,0,.3);
+	outline: none;
+	position: relative;
+	top: -84px;
+	left: 500px;
+}
+#xiazaianniu:hover {
+	color: #FFFFFF;
+}
+#kong {
+	width: 100%;
+	height: 100px;
+}
+/*个别特殊结束*/

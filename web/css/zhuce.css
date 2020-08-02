@@ -1,0 +1,60 @@
+#ze {
+    width: 434px;
+    height: 435px;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-right: 8%;
+    float: right;
+    display: none;
+}
+#ze>h3 {
+    margin: 30px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+#zcname,
+#zcno,
+#zcpassword,
+#zcan,
+#xuanze {
+    width: 385px;
+    height: 35px;
+    margin: 0 20px 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    text-indent: 1em;
+}
+#xuanze {
+    margin-bottom: 10px;
+}
+
+#zcname:hover,
+#zcno:hover,
+#zcpassword:hover,
+#zcan:hover,
+#xuanze:hover  {
+    border: 1px solid #92b5d6;
+}
+#zcan {
+    background: #92b5d6 !important;
+    border-color: #92b5d6 !important;
+    color: #ffffff;
+    margin-left: 27px;
+    margin-top: 15px;
+}
+#fanhui {
+    margin-left: 30px;
+    color: #666666;
+    font-size: 14px;
+}
+#fanhui:hover {
+    color: #444444;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#lianxi {
+    font-size: 13px;
+    color: #666666;
+    text-indent: 2em;
+}
